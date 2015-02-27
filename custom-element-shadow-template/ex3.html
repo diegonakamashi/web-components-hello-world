@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo1</title>
+  <script src='../bower_components/webcomponentsjs/webcomponents.min.js'></script>
+  <script src='./ex3.js'></script>
+</head>
+<body>
+
+  <template id="templ">
+   <style>
+      p { color: orange; }
+    </style>
+    <p>I'm in Shadow DOM. My markup was stamped from a &lt;template&gt;.</p>
+  </template>
+
+  <exemple-three attr1='Sem Data'>
+  </exemple-three>
+  <button onclick='change()'>Change</button>
+</body>
+</html>
